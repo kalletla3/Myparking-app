@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite">
+    <listeners>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+    </listeners>
+
+    <test name="Tests">
+        <classes>
+<!--            <class name="tests.StartAndEndSessionTest"/>-->
+<!--            <class name="tests.StartMultipleFriendSessionsTest"/>-->
+<!--            <class name="tests.EndActiveFriendSessionsTest"/>-->
+            <class name="tests.AddFundsTest"/>
+        </classes>
+    </test>
+</suite>

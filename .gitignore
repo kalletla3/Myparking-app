@@ -1,0 +1,16 @@
+# Maven
+target/
+*.log
+
+# IntelliJ
+.idea/
+*.iml
+
+# OS files
+.DS_Store
+
+# Appium logs
+appium.log
+
+# Credentials
+*.properties
